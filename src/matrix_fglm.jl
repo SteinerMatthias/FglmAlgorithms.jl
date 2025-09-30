@@ -20,6 +20,8 @@ julia> G = [y^2 + x - 1 + x, x^2 - y + 1];
 
 julia> B = [P(1), x,  y, x * y];
 
+julia> Oscar.Random.seed!(42); # Fixed seed for documentation tests
+
 julia> fglm_sparse_lex_shape_position(G, B)
 Gröbner basis with elements
   1: x + 51*y^2 + 50
@@ -111,6 +113,8 @@ If the lexicographic Gröbner basis of ``I`` is not in shape position with respe
 julia> P, (x, y) = polynomial_ring(GF(101), ["x", "y"], internal_ordering=:degrevlex);
 
 julia> I = ideal([y^2 + x - 1 + x, x^2 - y + 1]);
+
+julia> Oscar.Random.seed!(42); # Fixed seed for documentation tests
 
 julia> fglm_matrix_lex_shape_position(I)
 Gröbner basis with elements

@@ -10,7 +10,7 @@ DocMeta.setdocmeta!(FglmAlgorithms,
 
 makedocs(;
   modules=[FglmAlgorithms],
-  doctest=false,
+  doctest=true,
   linkcheck=true,
   checkdocs=:exports,
   authors="SteinerMatthias",
