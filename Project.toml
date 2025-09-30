@@ -1,0 +1,18 @@
+name = "FglmAlgorithms"
+uuid = "7bc5d256-62b5-42da-b6e6-b54636bcec1a"
+authors = ["SteinerMatthias"]
+version = "0.1.1"
+
+[deps]
+Oscar = "f1435218-dba5-11e9-1e4d-f1a5fab5fc13"
+
+[compat]
+Oscar = "1.0"
+julia = "1.11"
+
+[extras]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test", "Documenter"]

@@ -1,0 +1,4 @@
+[deps]
+Documenter = "e30172f5-a6a5-5a46-863b-614d45cd2de4"
+FglmAlgorithms = "7bc5d256-62b5-42da-b6e6-b54636bcec1a"
+Oscar = "f1435218-dba5-11e9-1e4d-f1a5fab5fc13"
