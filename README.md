@@ -15,7 +15,7 @@ Moreover, for the algorithms of [[2](#2), [3](#3)] **only probabilistic variants
 ## Installation
 FglmAlgorithms.jl can be installed from the Julia REPL via
 ```julia
-using Pkg; Pkg.add("FglmAlgorithms")
+using Pkg; Pkg.add(url="https://github.com/SteinerMatthias/FglmAlgorithms.jl")
 ```
 
 ## Usage

@@ -11,7 +11,7 @@ The package requires [Julia](https://julialang.org/) 1.11 or higher and [OSCAR](
 
 For installation, simply type
 ```julia
-julia> using Pkg; Pkg.add("FglmAlgorithms")
+julia> using Pkg; Pkg.add(url="https://github.com/SteinerMatthias/FglmAlgorithms.jl")
 ```
 
 ## A Simple Example
